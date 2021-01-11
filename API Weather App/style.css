@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #acb6e5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+font-family: Helvetica, sans-serif;
+
+}
+.location , .temperature {
+	display:flex;
+	justify-content: space-around;
+	width: 50%;
+	height: 30vh;
+	align-items: center;
+}
+.location h1 {
+	font-size: 50px;
+}
+.temperature {
+	flex-direction: column;
+}
+.degree-section {
+	display: flex;
+	align-items: center; 
+	
+}
+.degree-section span {
+	margin:10px;
+	font-size: 30px;
+}
+.degree-section h2 {
+	font-size: 40px;
+}
